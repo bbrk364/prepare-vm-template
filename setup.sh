@@ -12,7 +12,7 @@ sudo apt install cloud-init cloud-initramfs-copymods cloud-initramfs-dyn-netconf
 sudo apt upgrade
 
 # Reset cloud init just in case this VM was generated from a previously ran cloud-init image.
-cloud-init clean -l
+sudo cloud-init clean -l
 
 # Potentially clear/cleanup packages.
 sudo apt clean
