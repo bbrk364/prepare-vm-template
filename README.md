@@ -7,6 +7,7 @@ Script that can be used to prepare a Virtual Machine (VM) to be converted to a V
 ```bash
 sudo curl -fL https://raw.githubusercontent.com/rustygreen/prepare-vm-template/main/setup.sh | sh -
 ```
+3. Stop the VM and convert it to a template.
 
 ## General Steps
 The following steps are taken to prepare the VM to be converted to a template with `cloud-init` options.
